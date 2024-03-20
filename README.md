@@ -149,25 +149,24 @@ scanf("%lld",&G); // A primitive root for P, G is taken
 printf("The value of G : %lld\n\n", G);
 // Alice will choose the private key a
 a = 4; // a is the chosen private key
-printf("The private key a for Alice : %lld\n", a);
+printf("The private key a for gowtham : %lld\n", a);
 x = power(G, a, P); // gets the generated key
 // Bob will choose the private key b
 b = 3; // b is the chosen private key
-printf("The private key b for Bob : %lld\n\n", b);
+printf("The private key b for surya : %lld\n\n", b);
 y = power(G, b, P); // gets the generated key
 // Generating the secret key after the exchange
 // of keys
-ka = power(y, a, P); // Secret key for Alice
-kb = power(x, b, P); // Secret key for Bob
-printf("Secret key for the Alice is : %lld\n", ka);
-printf("Secret Key for the Bob is : %lld\n", kb);
+ka = power(y, a, P); // Secret key for gowtham
+kb = power(x, b, P); // Secret key for surya
+printf("Secret key for the gowtham is : %lld\n", ka);
+printf("Secret Key for the surya is : %lld\n", kb);
 return 0;
 }
 ```
 ## OUTPUT:
 
-<img width="342" alt="image" src="https://github.com/AlluguriSrikrishnateja/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/118343892/a3f5b0fa-ef81-4215-9521-2a16c87cef68">
-
+![Screenshot 2024-03-20 205528](https://github.com/krithygowthamn/19CS412---CRYPTOGRAPHY---ADVANCED-ENCRYPTION/assets/122247810/4033fd81-4c35-4100-a659-1c0dad217a44)
 
 ## RESULT: 
 
